@@ -10,7 +10,7 @@ A smart, macro-enabled Excel solution for automating bank reconciliation tasks. 
 - [ How It Works](#how-it-works)
   - [ Clean Raw Data with Power Query](#clean-raw-data-with-power-query)
   - [ Append New Transactions](#append-new-transactions)
-  - [ Validate SALDO](#validate-saldo)
+  - [ Validate Balance](#validate-balance)
   - [🔗 Link Cheques](#link-cheques)
   - [ Search Transactions](#search-transactions)
   - [ Clear Cleaned Data](#clear-cleaned-data)
@@ -25,7 +25,7 @@ A smart, macro-enabled Excel solution for automating bank reconciliation tasks. 
 
 - ✅ **Power Query Integration** for cleaning raw bank data
 - ✅ **Automated Transaction Import** with duplicate checks
-- ✅ **Balance Validation** using Expected vs Actual SALDO
+- ✅ **Balance Validation** using Expected vs Actual Balance
 - ✅ **Cheque Linking** between EDC and Cheques sheets
 - ✅ **Search Utilities** for quick transaction lookup
 - ✅ **Conditional Formatting** to highlight discrepancies
