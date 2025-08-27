@@ -14,10 +14,10 @@ A smart, macro-enabled Excel solution for automating bank reconciliation tasks. 
   - [🔗 Link Cheques](#link-cheques)
   - [ Search Transactions](#search-transactions)
   - [ Clear Cleaned Data](#clear-cleaned-data)
-- [🧩 Requirements](#requirements)
-- [📸 Screenshots](#screenshots)
-- [📜 License](#license)
-- [🙌 Acknowledgements](#acknowledgements)
+- [ Requirements](#requirements)
+- [ Screenshots](#screenshots)
+- [ License](#license)
+- [ Acknowledgements](#acknowledgements)
 
 
 ---
@@ -94,20 +94,20 @@ BankReconAutomation/
 
 ---
 
-## 📸 Screenshots
+##  Screenshots
 
 <img src="https://github.com/user-attachments/assets/2da15f16-d55c-4534-a8a1-254698dc75ae" width="600" alt="Dashboard Preview">
 
 
 ---
 
-## 📜 License
+##  License
 
 This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
 
 ---
 
-## 🙌 Acknowledgements
+##  Acknowledgements
 
 Built by **Princess Nkemjika Onwubuche** in **Lagos, Nigeria** 🇳🇬  
 Inspired by real-world financial reconciliation needs and designed for speed, accuracy, and simplicity.
