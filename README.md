@@ -18,7 +18,7 @@ A smart, macro-enabled Excel solution for automating bank reconciliation tasks. 
 
 ## 📂 Project Structure
 
-```plaintext
+````
 ExcelBankReconciliation/
 │
 ├── VBA/
@@ -34,4 +34,66 @@ ExcelBankReconciliation/
 ├── Screenshots/
 │   └── dashboard_preview.png
 └── README.md
+
+````
+---
+
+##  How It Works
+
+### 1.  Clean Raw Data with Power Query
+- Import raw bank statements into the `Raw_Data` sheet.
+- Use Power Query to remove noise, format columns, and load cleaned data into `Clean_Data`.
+- Refresh the query with a single click using the `RefreshCleanData` macro.
+
+### 2.  Append New Transactions
+- The `AppendNewTransactions` macro compares transaction dates and appends only **new, unique entries** to the `EDC` sheet.
+- Transactions are automatically sorted from **newest to oldest**.
+
+### 3.  Validate Balance
+- The `BalanceValidation` macro calculates **expected balances** based on transaction type (`D` for debit, `C` for credit).
+- Discrepancies are flagged using conditional formatting (`True`/`False`).
+
+### 4. 🔗 Link Cheques
+- The `LinkEDCtoCheque` macro matches **Cheque Numbers** between:
+  - `EDC` sheet → Column **L**
+  - `Cheques` sheet → Column **B**
+- Transfers related metadata (e.g., Cheque Date) into the `EDC` sheet.
+
+### 5.  Search Transactions
+- `SearchEDC` and `SearchCHEQUES` macros highlight matching entries based on user input:
+  - `EDC!D4` for EDC search
+  - `CHEQUES!D5` for Cheques search
+
+### 6.  Clear Cleaned Data
+- The `ClearCleanData` macro resets the `Clean_Data` sheet to prepare for a fresh import cycle.
+
+---
+
+## 🧩 Requirements
+
+- Microsoft Excel 2016 or later  
+- Macros must be enabled  
+- Developer tab activated in Excel
+
+---
+
+## 📸 Screenshots
+
+> Add screenshots of your dashboard, validation highlights, and search results here to showcase functionality.
+
+---
+
+## 📜 License
+
+This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
+
+---
+
+## 🙌 Acknowledgements
+
+Built by **Princess Nkemjika .O** in **Lagos, Nigeria** 🇳🇬  
+Inspired by real-world financial reconciliation needs and designed for speed, accuracy, and simplicity.
+
+
+
 
