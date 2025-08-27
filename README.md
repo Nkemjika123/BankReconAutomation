@@ -8,12 +8,6 @@ A smart, macro-enabled Excel solution for automating bank reconciliation tasks. 
 - [ Project Overview](#project-overview)
 - [ Project Structure](#project-structure)
 - [ How It Works](#how-it-works)
-  - [ Clean Raw Data with Power Query](#clean-raw-data-with-power-query)
-  - [ Append New Transactions](#append-new-transactions)
-  - [ Validate Balance](#validate-balance)
-  - [🔗 Link Cheques](#link-cheques)
-  - [ Search Transactions](#search-transactions)
-  - [ Clear Cleaned Data](#clear-cleaned-data)
 - [ Requirements](#requirements)
 - [ Screenshots](#screenshots)
 - [ License](#license)
@@ -86,7 +80,7 @@ BankReconAutomation/
 
 ---
 
-## 🧩 Requirements
+##  Requirements
 
 - Microsoft Excel 2016 or later  
 - Macros must be enabled  
