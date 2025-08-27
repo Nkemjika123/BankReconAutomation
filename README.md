@@ -79,8 +79,8 @@ ExcelBankReconciliation/
 
 ## 📸 Screenshots
 
-> ![Dashboard Preview](<img width="1655" height="972" alt="Screenshot 2025-08-27 130114" src="https://github.com/user-attachments/assets/2da15f16-d55c-4534-a8a1-254698dc75ae" />
-)
+<img src="https://github.com/user-attachments/assets/2da15f16-d55c-4534-a8a1-254698dc75ae" width="600" alt="Dashboard Preview">
+
 
 ---
 
