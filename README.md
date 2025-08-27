@@ -16,7 +16,7 @@ A smart, macro-enabled Excel solution for automating bank reconciliation tasks. 
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ````
 ExcelBankReconciliation/
@@ -79,7 +79,8 @@ ExcelBankReconciliation/
 
 ## 📸 Screenshots
 
-> Add screenshots of your dashboard, validation highlights, and search results here to showcase functionality.
+> ![Dashboard Preview](<img width="1655" height="972" alt="Screenshot 2025-08-27 130114" src="https://github.com/user-attachments/assets/2da15f16-d55c-4534-a8a1-254698dc75ae" />
+)
 
 ---
 
