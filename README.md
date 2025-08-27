@@ -3,8 +3,25 @@
 A smart, macro-enabled Excel solution for automating bank reconciliation tasks. It cleans raw transaction data, matches entries, validates balances, highlights discrepancies, and links cheque records with ledger entries — built for accuracy, speed, and ease of use.
 
 ---
+##  Table of Contents
 
-##  Features
+- [ Project Overview](#project-overview)
+- [ Project Structure](#project-structure)
+- [ How It Works](#how-it-works)
+  - [ Clean Raw Data with Power Query](#clean-raw-data-with-power-query)
+  - [ Append New Transactions](#append-new-transactions)
+  - [ Validate SALDO](#validate-saldo)
+  - [🔗 Link Cheques](#link-cheques)
+  - [ Search Transactions](#search-transactions)
+  - [ Clear Cleaned Data](#clear-cleaned-data)
+- [🧩 Requirements](#requirements)
+- [📸 Screenshots](#screenshots)
+- [📜 License](#license)
+- [🙌 Acknowledgements](#acknowledgements)
+
+
+---
+##   Project Overview
 
 - ✅ **Power Query Integration** for cleaning raw bank data
 - ✅ **Automated Transaction Import** with duplicate checks
@@ -19,7 +36,7 @@ A smart, macro-enabled Excel solution for automating bank reconciliation tasks. 
 ##  Project Structure
 
 ````
-ExcelBankReconciliation/
+BankReconAutomation/
 │
 ├── VBA/
 │   ├── RefreshCleanData.bas
@@ -30,7 +47,7 @@ ExcelBankReconciliation/
 │   ├── SearchCHEQUES.bas
 │   └── ClearCleanData.bas
 ├── Documentation/
-│   └── SaldoValidationGuide.md
+│   └── BalanceValidationGuide.md
 ├── Screenshots/
 │   └── dashboard_preview.png
 └── README.md
@@ -65,7 +82,7 @@ ExcelBankReconciliation/
   - `CHEQUES!D5` for Cheques search
 
 ### 6.  Clear Cleaned Data
-- The `ClearCleanData` macro resets the `Clean_Data` sheet to prepare for a fresh import cycle.
+- The `ClearCleanData` macro resets the `Cleaned_Data` sheet to prepare for a fresh import cycle.
 
 ---
 
@@ -92,7 +109,7 @@ This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) f
 
 ## 🙌 Acknowledgements
 
-Built by **Princess Nkemjika .O** in **Lagos, Nigeria** 🇳🇬  
+Built by **Princess Nkemjika Onwubuche** in **Lagos, Nigeria** 🇳🇬  
 Inspired by real-world financial reconciliation needs and designed for speed, accuracy, and simplicity.
 
 
