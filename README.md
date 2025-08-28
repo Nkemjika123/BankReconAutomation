@@ -10,11 +10,11 @@ A smart, macro-enabled Excel solution for automating bank reconciliation tasks. 
 - [ Project Structure](#project-structure)
 - [ How It Works](#how-it-works)
 - [ Requirements](#requirements)
-- [ Download Resources](#download-resourses)
+- [ Download Resources](#download-resources)
 - [ Screenshots](#screenshots)
 - [ License](#license)
 - [ Acknowledgements](#acknowledgements)
-- [ 📞Support](#📞Support)
+- [ Support](#support)
 
 ---
 ## Data Source
