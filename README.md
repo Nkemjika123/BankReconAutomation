@@ -5,14 +5,20 @@ A smart, macro-enabled Excel solution for automating bank reconciliation tasks. 
 ---
 ##  Table of Contents
 
+- [ Data Source](#Data-Source)
 - [ Project Overview](#project-overview)
 - [ Project Structure](#project-structure)
 - [ How It Works](#how-it-works)
 - [ Requirements](#requirements)
+- [ Download Resources](#download-resourses)
 - [ Screenshots](#screenshots)
 - [ License](#license)
 - [ Acknowledgements](#acknowledgements)
+- [ 📞Support](#📞Support)
 
+---
+## Data Source
+This dataset was manually curated for demonstration and testing purposes. It does not contain any real customer or financial institution data.
 
 ---
 ##   Project Overview
@@ -85,9 +91,18 @@ BankReconAutomation/
 - Microsoft Excel 2016 or later  
 - Macros must be enabled  
 - Developer tab activated in Excel
+- Power Query installed and configured
 
 ---
+## Download Resources
 
+[View VBA Code (PDF)](https://github.com/Nkemjika123/BankReconAutomation/blob/main/Personal%20Financial%20Reconciliation%20VBA%20CODES.pdf)
+
+[Download Manual]([docs/BankReconUserManual.pdf](https://github.com/Nkemjika123/BankReconAutomation/blob/main/%F0%9F%93%98%20User%20Manual_Bank_Reconciliation%20.pdf))
+
+[Download Sample Dataset]([Data/sample_transactions.xlsx](https://github.com/Nkemjika123/BankReconAutomation/blob/main/Personal_Project_Bank_Management.xlsx))
+
+---
 ##  Screenshots
 
 <img src="https://github.com/user-attachments/assets/2da15f16-d55c-4534-a8a1-254698dc75ae" width="600" alt="Dashboard Preview">
@@ -105,6 +120,16 @@ This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) f
 
 Built by **Princess Nkemjika Onwubuche** in **Lagos, Nigeria** 🇳🇬  
 Inspired by real-world financial reconciliation needs and designed for speed, accuracy, and simplicity.
+
+---
+
+## 📞Support
+
+For questions or troubleshooting, contact:
+Nkemjika 
+Email: analystnkem@gmail.com
+GitHub: https://github.com/Nkemjika123
+
 
 
 
